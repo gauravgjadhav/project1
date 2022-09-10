@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="about.css"> 
+</head>
+<body>
+    <center> <h1 style="background-color:rgb(229, 230, 176)">About Page</h1>
+    <video width="1000" height="600" autoplay>
+        <source src="video_2022-09-10_16-12-33.mp4" type="video/mp4">
+        <source src="video_2022-09-10_16-12-33.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+
+      </video><br><br>
+      <button class="button button4" id="btnBack">Back</button>
+    </center>
+    <script>
+        var back=document.querySelector("#btnBack");
+        back.addEventListener('click',()=>{
+            window.location.href="index.html";
+        });
+    </script>
+</body>
+</html>

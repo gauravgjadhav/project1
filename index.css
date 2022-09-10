@@ -1,0 +1,22 @@
+body {
+    background-image: url('greg-rosenke-6QnEf_b47eA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  .button {
+    background-color: #4c8caf; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 300px;
+    width: 200px;
+    
+  }
+  .button4 {border-radius: 12px;}
